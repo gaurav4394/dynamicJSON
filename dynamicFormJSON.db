@@ -1,0 +1,63 @@
+{  
+   "fields":[  
+      {  
+         "question":{  
+            "name":"Textview",
+            "type":"STRING",
+            "text":"1) Are a Graduate",
+            "answers":[  
+               {  
+                  "answerone":{  
+                     "name":"CheckBox",
+                     "text":"Yes",
+                     "point":1
+                  },
+                  "answerTwo":{  
+                     "name":"CheckBox",
+                     "text":"No",
+                     "point":0
+                  }
+               }
+            ]
+         },
+         "question":{  
+            "name":"Textview",
+            "type":"STRING",
+            "text":"2) Are you:",
+            "answers":[  
+               {  
+                  "answerone":{  
+                     "name":"CheckBox",
+                     "text":"BE",
+                     "point":4
+                  },
+                  "answerTwo":{  
+                     "name":"CheckBox",
+                     "text":"BSC",
+                     "point":2
+                  },
+                  "answerThree":{  
+                     "name":"CheckBox",
+                     "text":"BCA",
+                     "point":3
+                  }
+               }
+            ]
+         },
+         "question":{  
+            "name":"Textview",
+            "type":"STRING",
+            "text":"3) Percentage:",
+            "answers":[  
+               {  
+                  "answerone":{  
+                     "name":"EditText",
+                     "text":"",
+                     "point":0
+                  }
+               }
+            ]
+         }
+      }
+   ]
+}
